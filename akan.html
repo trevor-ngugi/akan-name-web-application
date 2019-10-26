@@ -11,9 +11,10 @@
     <h1>akan names</h1>
     <script src="js/scripts.js"></script>
     <p>hello there welcome to akan pages.here we would like to predict your akan names enter the your information below</p>
+        
     <form>
             First name:<br>
-            <input type="text" name="firstname"><br>
+            <input type="text" name="firstname" id="firstname"><br>
             Last name:<br>
             <input type="text" name="lastname" ><br>
 
@@ -21,8 +22,24 @@
             <input type="text " name="daateofbirth"><br>
             gender:<br>
             <input type="text " name="daateofbirth"><br>
-            <input type="submit" value="Submit">
+            <button type="button" 
+            onclick="myFunction()"> 
+      Try it 
           </form>
+            </button>
+          <p id="demo"></p> 
+
+          <script> 
+                // Here the value is stored in new variable x  
+                //to print your name below
+                function myFunction() { 
+                    var x =  
+                        document.getElementById("firstname").value; 
+                    
+                    document.getElementById( 
+                      "demo").innerHTML = x; 
+                } 
+            </script> 
     
 </body>
 </html>
