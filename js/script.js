@@ -9,3 +9,8 @@ var cc=[19,20,21]
 function century(){
 return (cc[0]/4)-2*cc[0]-1
 }
+// calculates the function of year
+var yy=[11,12,13];
+function year(){
+return  5*yy[0]/4;
+}
