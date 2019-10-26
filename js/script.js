@@ -28,3 +28,10 @@ var monthResult=mm()
 //calculates the totatl of the day of the week
 var dayOfMonth=[27,28,29]
 var dayOfWeek=(centuryResult+yearResult+monthResult+dayOfMonth[2])%7
+
+//use get value of id  to put into the functions
+
+var gender=["male ","female" ];
+
+var maleDays=["sunday", "monday", "tuesday", "wednesday", "thrusday", "friday", "saturday"];
+var maleNames=["Kwasi", "Kwadwo", "Kwabena" ,"Kwaku", "Yaw","Kofi", "Kwame"];
