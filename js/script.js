@@ -37,11 +37,22 @@ var maleDays=["sunday", "monday", "tuesday", "wednesday", "thrusday", "friday", 
 var maleNames=["Kwasi", "Kwadwo", "Kwabena" ,"Kwaku", "Yaw","Kofi", "Kwame"];
 
 //if function for male names
-if(dayOfWeek===0){console.log(maleNames[0]);}
-	else if (dayOfWeek===1){console.log(maleNames[1]);}
-    else if (dayOfWeek===2){console.log(maleNames[2]);}
-    else if (dayOfWeek===3){console.log(maleNames[3]);}
-    else if (dayOfWeek===4){console.log(maleNames[4]);}
-	else if (dayOfWeek===5){console.log(maleNames[5]);}
-    else if (dayOfWeek===6){console.log(maleNames[6]);}
+
     //add else function to close it
+    if(dayOfWeek===0 &&gender[0]){console.log(maleNames[0]);}
+	    else if (dayOfWeek===1 &&gender[0]){console.log(maleNames[1]);}
+        else if (dayOfWeek===2 &&gender[0]){console.log(maleNames[2]);}
+        else if (dayOfWeek===3 &&gender[0]){console.log(maleNames[3]);}
+        else if (dayOfWeek===4 &&gender[0]){console.log(maleNames[4]);}
+	    else if (dayOfWeek===5 &&gender[0]){console.log(maleNames[5]);}
+        else if (dayOfWeek===6 &&gender[0]){console.log(maleNames[6]);}
+ 
+ var femaleNames=[ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua", "Ama"];
+
+if(dayOfWeek===0 &&gender[1]){console.log(femaleNames[0]);}
+	else if (dayOfWeek===1 &&gender[1]){console.log(femaleNames[1]);}
+    else if (dayOfWeek===2 &&gender[1]){console.log(femaleNames[2]);}
+    else if (dayOfWeek===3 &&gender[1]){console.log(femaleNames[3]);}
+    else if (dayOfWeek===4 &&gender[1]){console.log(femaleNames[4]);}
+	else if (dayOfWeek===5 &&gender[1] ){console.log(femaleNames[5]);}
+    else if (dayOfWeek===6 &&gender[1]){console.log(femaleNames[6]);}
