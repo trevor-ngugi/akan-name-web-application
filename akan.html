@@ -15,26 +15,26 @@
 </head>
 <body>
     <div class="content">
-    <h1>Akan pages</h1>
-    <script src="js/scripts.js"></script>
-    <p>Hello there welcome to akan pages.According to the Akan people of Ghana, frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+        <h1>Akan pages</h1>
+        <script src="js/scripts.js"></script>
+        <p>Hello there welcome to akan pages.According to the Akan people of Ghana, frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
 
-    <p> In this application  we would like to predict your akan names by just entering the  information below</p>
+         <p> In this application  we would like to predict your akan names by just entering the  information below</p>
         
-        <form>
-            Full name:<br>
-            <input type="text" name="firstname" id="firstname"><br><br>
-            enter date of birth :<br><br>
-                day<input type="text " name="day" id="day">
-                month<input type="text " name="month" id=month> 
-                first two digits of year<input type="text " name="century" id="century" size="2"> 
-                last digits of year<input type="text " name="year" id="year" size="2"><br><br>
-            gender:<br>
-            <input type="text " name="gender" id="gender"><br>
-            <button type="button" 
-            onclick= "result(document.getElementById('day').value,document.getElementById('month').value,document.getElementById('century').value,document.getElementById('year').value ,document.getElementById('gender').value)">submit</button>
-        </form>
-        </div>    
+            <form>
+                Full name:<br>
+                <input type="text" name="firstname" id="firstname"><br><br>
+                enter date of birth :<br><br>
+                    day<input type="text " name="day" id="day">
+                    month<input type="text " name="month" id=month> 
+                    first two digits of year<input type="text " name="century" id="century" size="2"> 
+                    last digits of year<input type="text " name="year" id="year" size="2"><br><br>
+                gender:<br>
+                <input type="text " name="gender" id="gender"><br>
+                <button type="button" 
+                onclick= "result(document.getElementById('day').value,document.getElementById('month').value,document.getElementById('century').value,document.getElementById('year').value ,document.getElementById('gender').value)">submit</button>
+            </form>
+    </div>    
            
 
         <script> 
@@ -44,7 +44,7 @@
                 var month1=(26*(parseInt(month)+1)/10)+parseInt(day);
                 var dayOfWeek1=(century1+year1+month1)%7;
                 alert(dayOfWeek1);
-
+                //edit this function
                 var gender1=gender ;
                 var maleNames=["Kwasi", "Kwadwo", "Kwabena" ,"Kwaku", "Yaw","Kofi", "Kwame"];
                 var femaleNames=[ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua", "Ama"];
