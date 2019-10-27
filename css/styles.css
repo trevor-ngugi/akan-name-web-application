@@ -1,11 +1,17 @@
+h1{
+    text-align: center;
+}
+
+
 p{
     color: orange;
     font-size: 25px;
+    text-align: center;
 }
 
 .content{
     background:rgb(136, 102, 136);
-    width: 50%;
+    width: 60%;
     padding :10px;
     margin: 100px;
 }
