@@ -49,10 +49,5 @@ var maleNames=["Kwasi", "Kwadwo", "Kwabena" ,"Kwaku", "Yaw","Kofi", "Kwame"];
  
  var femaleNames=[ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua", "Ama"];
 
-if(dayOfWeek===0 &&gender[1]){console.log(femaleNames[0]);}
-	else if (dayOfWeek===1 &&gender[1]){console.log(femaleNames[1]);}
-    else if (dayOfWeek===2 &&gender[1]){console.log(femaleNames[2]);}
-    else if (dayOfWeek===3 &&gender[1]){console.log(femaleNames[3]);}
-    else if (dayOfWeek===4 &&gender[1]){console.log(femaleNames[4]);}
-	else if (dayOfWeek===5 &&gender[1] ){console.log(femaleNames[5]);}
-    else if (dayOfWeek===6 &&gender[1]){console.log(femaleNames[6]);}
+
+ 
