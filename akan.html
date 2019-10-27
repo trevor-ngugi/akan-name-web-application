@@ -12,32 +12,29 @@
     <script src="js/scripts.js"></script>
     <p>hello there welcome to akan pages.here we would like to predict your akan names enter the your information below</p>
         
-    <form>
+        <form>
             First name:<br>
-            <input type="text" name="firstname" id="firstname"><br>
-            Last name:<br>
-            <input type="text" name="lastname" ><br>
+            <input type="text" name="firstname" id="firstname"><br><br>
+            
 
             enter date of birth (dd/mm/yyyy):<br>
-            <input type="text " name="day" id="day"> <input type="text " name="month" id=month> <input type="text " name="century" id="century"> <input type="text " name="year" id="year"><br>
+            day<input type="text " name="day" id="day"> month<input type="text " name="month" id=month> first two digits of year<input type="text " name="century" id="century"> last digits of year<input type="text " name="year" id="year"><br>
             gender:<br>
             <input type="text " name="daateofbirth"><br>
             <button type="button" 
-            onclick="myFunction()"> 
-      Try it 
-          </form>
-            </button>
-          <p id="demo"></p> 
+            onclick= "result(document.getElementById('day').value,document.getElementById('month').value,document.getElementById('century').value,document.getElementById('year').value)">Add</button>
+        </form>
+            
+           
 
-          <script> 
-                         function result(day,month,century,year){
-	var century1=(parseInt(century)/4)-2*parseInt(century)-1;
-  var year1=5*parseInt(year)/4;
-  var month1=(26*(parseInt(month)+1)/10)+parseInt(day);
-  var dayOfWeek1=(century1+year1+month1)%7;
-  alert(dayOfWeek1);} 
-                 
-            </script> 
+        <script> 
+            function result(day,month,century,year){
+                var century1=(parseInt(century)/4)-2*parseInt(century)-1;
+                var year1=5*parseInt(year)/4;
+                var month1=(26*(parseInt(month)+1)/10)+parseInt(day);
+                var dayOfWeek1=(century1+year1+month1)%7;
+                alert(dayOfWeek1);} 
+        </script> 
     
 </body>
 </html>
