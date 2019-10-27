@@ -1,3 +1,11 @@
 p{
     color: orange;
+    font-size: 25px;
+}
+
+.content{
+    background:rgb(136, 102, 136);
+    width: 50%;
+    padding :10px;
+    margin: 100px;
 }
