@@ -6,7 +6,7 @@
         var year1=5*parseInt(year)/4;
         var month1=(26*(parseInt(month)+1)/10)+parseInt(day);
         var dayOfWeek1=Math.trunc((century1+year1+month1)%7);
-        alert(dayOfWeek1);                           
+        alert(dayOfWeek1); 
                                                     
                                                     
 
@@ -20,15 +20,30 @@
 
    
 
-    if(dayOfWeek1===0 &&gender[1]){console.log(femaleNames[0]);}
-        else if (dayOfWeek1===1 &&gender[1]){console.log(femaleNames[1]);}
-        else if (dayOfWeek1===2 &&gender[1]){console.log(femaleNames[2]);}
-        else if (dayOfWeek1===3 &&gender[1]){console.log(femaleNames[3]);}
-        else if (dayOfWeek1===4 &&gender[1]){console.log(femaleNames[4]);}
-        else if (dayOfWeek1===5 &&gender[1] ){console.log(femaleNames[5]);}
-        else if (dayOfWeek1===6 &&gender[1]){console.log(femaleNames[6]);}
+    if(dayOfWeek1===0 & female.checked){alert(femaleNames[0]);}
+        else if (dayOfWeek1===1 &&female.checked){alert(femaleNames[1]);}
+        else if (dayOfWeek1===2 &&female.checked){alert(femaleNames[2]);}
+        else if (dayOfWeek1===3 &&female.checked){alert(femaleNames[3]);}
+        else if (dayOfWeek1===4 &&female.checked){alert(femaleNames[4]);}
+        else if (dayOfWeek1===5 &&female.checked){alert(femaleNames[5]);}
+        else if (dayOfWeek1===6 &&female.checked){alert(femaleNames[6]);}
 
-                                                }                             
+        if(dayOfWeek1===0 && male.checked ){alert(maleNames[0]);}
+            else if (dayOfWeek1===1 && male.checked){alert(maleNames[1]);}
+            else if (dayOfWeek1===2 && male.checked){alert(maleNames[2]);}
+            else if (dayOfWeek1===3 && male.checked){alert(maleNames[3]);}
+            else if (dayOfWeek1===4 && male.checked){alert(maleNames[4]);}
+            else if (dayOfWeek1===5 && male.checked){alert(maleNames[5]);}
+            else if ( male.checked && male.checked){alert(maleNames[6]);}
+
+    
+    
+    
+    
+    
+    
+    
+    }  //bracket line 4                           
                                             
                                             
                                                      
