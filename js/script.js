@@ -1,3 +1,7 @@
+if(("day"<=o || "day">31)||("month"<=0||"month">12){
+
+
+
 function result(day,month,century,year,gender){
     var century1=(parseInt(century)/4)-2*parseInt(century)-1;
     var year1=5*parseInt(year)/4;
@@ -28,7 +32,9 @@ function result(day,month,century,year,gender){
 
 
 
-} 
+                                                }
+                                                    } 
+        else {alert("wrong details")}
 
 
  
