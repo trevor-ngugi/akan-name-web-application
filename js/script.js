@@ -14,7 +14,10 @@ if(("day"<=o || "day">31) && ("month"<=0||"month">12){
     
     var maleNames=["Kwasi", "Kwadwo", "Kwabena" ,"Kwaku", "Yaw","Kofi", "Kwame"];
     var femaleNames=[ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua", "Ama"];
-{
+    var days=["sunday ","monday" ,"tuesday ","wednesday" ,"thursday ","friday", "saturday"]
+
+
+    {
     if(dayOfWeek1===0 && male.checked==true){alert(maleNames[0]);}
         else if (dayOfWeek1===1 &&"male"checked){alert(maleNames[1]);}
         else if (dayOfWeek1===2 &&"male"checked){alert(maleNames[2]);}
