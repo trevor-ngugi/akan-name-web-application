@@ -4,7 +4,7 @@
         var year1=5*parseInt(year)/4;
         var month1=(26*(parseInt(month)+1)/10)+parseInt(day);
         var dayOfWeek1=Math.trunc((century1+year1+month1)%7);
-        alert(dayOfWeek1); 
+         
                                                     
     
     var maleNames=["Kwasi", "Kwadwo", "Kwabena" ,"Kwaku", "Yaw","Kofi", "Kwame"];
