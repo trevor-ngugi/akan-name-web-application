@@ -4,7 +4,7 @@
 ## Description
 it takes the users information and calculates a function which outputs the prediction of the users akan name 
 ## Setup/Installation Requirements
-* enter users name
+* enter websites url
 * enter use date of birth
 * enter gender of user
 
